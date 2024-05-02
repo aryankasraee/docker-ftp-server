@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    reviewers:
+      - "aryankasraee"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "docker"
+    commit-message:
+      include: "scope"
+      prefix: "chore"
+    directory: "/"
+    reviewers:
+      - "aryankasraee"
+    schedule:
+      interval: "daily"

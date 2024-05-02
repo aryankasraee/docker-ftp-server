@@ -1,0 +1,10 @@
+docker_repository: aryankasraee/ftp-server
+author: aryankasraee
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+remote_theme: aryankasraee/aryankasraee.github.io
+tagline: Aryan Kasraee
+twitter:
+  username: aryankasraee
+  card: summary
